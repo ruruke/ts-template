@@ -39,7 +39,7 @@ jobs:
 
       - name: Check if build succeeded
         run: |
-          if [ -f "./dist/midway.js" ]; then
+          if [ -f "./dist/main.js" ]; then
             echo "Build succeeded! Output file exists."
           else
             echo "Build failed! Output file does not exist."
