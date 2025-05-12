@@ -1,0 +1,26 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node esbuild.config.js && node dist/main.js",
+    "build:dev": "NODE_ENV=development node esbuild.config.js",
+    "build:prod": "NODE_ENV=production node esbuild.config.js",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2",
+    "esbuild-node-externals": "^1.18.0",
+    "javascript-obfuscator": "^4.1.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0"
+}
