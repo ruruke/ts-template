@@ -107,7 +107,7 @@ This workflow performs the following actions:
 Note: The current package.json does not include a test script. Please add a test script to package.json as needed, or remove the test step from the CI configuration.
 License
 
-None.
+GPL-3.0 license
 
 # NodeJS Application (JA)
 
@@ -236,4 +236,4 @@ jobs:
 
 ## ライセンス
 
-None.
+GPL-3.0 license
